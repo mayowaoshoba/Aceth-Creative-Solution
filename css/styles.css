@@ -11003,3 +11003,127 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+.section {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+.section-subtitle {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-title {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.pricing-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+.pricing-card-header img {
+  max-width: 70px;
+  margin-bottom: 25px;
+}
+
+.pricing-card-title {
+  
+  color: #f4623a;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing-card-list {
+    text-align: center !important;
+}
+
+.pricing-card-list p {
+  margin-bottom: 10px;
+}
+
+.pricing-card-footer {
+  margin-top: 20px;
+}
+
+.pricing-card-btn {
+  display: inline-block;
+  background-color: #f4623a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.pricing-card-btn:hover {
+  background-color: #f2613a;
+}
+
+.footer {
+  display: flex;
+  min-height: 70px;
+  border-top: 1px solid #ccc; /* Example border color */
+  align-items: center;
+  justify-content: space-between; /* Aligns items at opposite ends of the container */
+  padding: 0 20px; /* Add padding to the sides for spacing */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+}
+
+.footer .social-links {
+  display: flex; /* Display social links as flex items */
+}
+
+.footer .social-links a {
+  margin-left: 10px; /* Add space between social links */
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid #666; /* Example gray color */
+  color: #666; /* Example gray color */
+}
+
+.footer .social-links a:hover {
+  background: #007bff; /* Example primary color */
+  border-color: #007bff; /* Example primary color */
+  color: #fff; /* Example white color */
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start on small screens */
+  }
+
+  .footer .social-links {
+    margin-top: 15px;
+    margin-left: 0; /* Reset margin for social links on small screens */
+  }
+}
+
+
+
+
+

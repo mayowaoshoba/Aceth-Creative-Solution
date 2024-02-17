@@ -57,3 +57,9 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+function populateMessage(priceTitle) {
+    var messageInput = document.getElementById("message");
+    messageInput.value = "I would like to subscribe to the " + priceTitle + " plan.";
+}
