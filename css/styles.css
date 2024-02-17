@@ -11123,6 +11123,15 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+@media (max-width: 768px) {
+  .pricing-card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+
+
+
 
 
 
